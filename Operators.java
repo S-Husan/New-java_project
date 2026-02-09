@@ -28,8 +28,18 @@ public class Operators {
         int g = f << 1;
         System.out.println(" g" + g);
 
+        
+        int s = a + 5 + sum(6,7);// 5 is literal
+        System.out.println(s);
+        
+    }
+    
+    static int sum(int x, int y)
+    {
+        return x + y;
 
     }
+    
 }
 
 
