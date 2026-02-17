@@ -43,5 +43,9 @@ public class Operators {
 }
 
 
+
 // we have 28 >>(zeros) abd 0100
 // 
+
+
+
