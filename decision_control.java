@@ -15,6 +15,64 @@
 public class decision_control {
     public static void main(String[] args) {
 
+        int Number = 5;
+        // positive
+        if (Number > 0){
+            System.out.println("this number is positive");
+        }
+        else if(Number < 0){
+            System.out.println("This is negative number ");
+        }
+        else{
+            System.out.println("this number is zero");
+        }
+
+        // odd or even
+        if(Number % 2 == 0){
+            System.out.println("this is even");
+        }
+        else{
+            System.out.println("this is odd");
+        }
+
+        // divisible by 5 
+        if (Number % 5 ==0 ){
+            System.out.println("this can be devided by 5");
+        }
+        else{
+            System.out.println("this is can't be devided by 5");
+        }
+
+
+        // 3 digit number
+        if (Number >= 99 && Number <= 999){
+            System.out.println("This is 3 digit number");
+        }
+        else{
+            System.out.println("this is not 3 digit");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // char grade = 'D';
 
         // if (grade == 'A') {
@@ -62,41 +120,41 @@ public class decision_control {
 
         //////////////////////////////
         /// positive or negative
-        int number = 1; 
-        if (number > 0) {
-            System.out.println("Number is Positive");
-        }
-        else if (number < 0) {
-            System.out.println("Number is Negative");
-        }
-        else {
-            System.out.println("Number is Zero");
-        }
-        // odd or even
-         int num = 1; 
-        if (num % 2 == 0) {
-            System.out.println("Number is Even");
-        } else {
-            System.out.println("Number is Odd");
-        }
+        // int number = 1; 
+        // if (number > 0) {
+        //     System.out.println("Number is Positive");
+        // }
+        // else if (number < 0) {
+        //     System.out.println("Number is Negative");
+        // }
+        // else {
+        //     System.out.println("Number is Zero");
+        // }
+        // // odd or even
+        //  int num = 1; 
+        // if (num % 2 == 0) {
+        //     System.out.println("Number is Even");
+        // } else {
+        //     System.out.println("Number is Odd");
+        // }
 
-        /// 5 devisione
-          int n = 1; 
-        if( n % 5 == 0 ){
-            System.out.println("Number devides by 5");
-        }
-        else if( number % 5 != 0 ){
-            System.out.println("Number is not devided by 5");
-        }
+        // /// 5 devisione
+        //   int n = 1; 
+        // if( n % 5 == 0 ){
+        //     System.out.println("Number devides by 5");
+        // }
+        // else if( number % 5 != 0 ){
+        //     System.out.println("Number is not devided by 5");
+        // }
 
-        // 3 didgits
-         int N = 200; 
-        if (N >= 99 && N<= 999){
-            System.out.println("this number 3 digit");
-        }
-        else{
-            System.out.println("This is not 3 digit number");
-        }
+        // // 3 didgits
+        //  int N = 200; 
+        // if (N >= 99 && N<= 999){
+        //     System.out.println("this number 3 digit");
+        // }
+        // else{
+        //     System.out.println("This is not 3 digit number");
+        // }
 
     }
 }
