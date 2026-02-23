@@ -1,25 +1,18 @@
-class Box
-{
-    String Acoount_holder_name;
-    double Balance;
-    int Account_number;
+public class BankAccount {
+    
+    String AccounholderName;
+    int AccountNumber;
+    double balance; 
 
-    Box(String a, double b, int n)
-    {
-    Acoount_holder_name = a;
-    Balance = b;
-    Account_number = n;
-    }
-    // returnrType name(type paramname, ){code}
-    void deposite(double amount){
-        Balance += amount;
-    }
+
+public BankAccount(String name, int number, double Balance){
+ this.AccounholderName = name;
+ this.AccountNumber =number ;
+ this.balance= Balance;
 }
-    public class BankAccount
-    {
-        public static void main(String[] args) 
-        {
 
-        }
+public void 
+
+
 
 }

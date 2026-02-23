@@ -51,28 +51,6 @@ public class decision_control {
         else{
             System.out.println("this is not 3 digit");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // char grade = 'D';
 
         // if (grade == 'A') {
@@ -102,6 +80,15 @@ public class decision_control {
         //     System.out.println("Countdown " + i);
         // }
 
+        // for (int i =1; i < 10 ; i++){
+        //     System.out.println("Number + i");
+        // }
+
+        int i = 10;
+        while (i > 0){
+            System.out.println(i);
+            i--;
+        }
         // System.out.println("Blast off");
 
 //////////
@@ -155,6 +142,6 @@ public class decision_control {
         // else{
         //     System.out.println("This is not 3 digit number");
         // }
-
     }
 }
+
