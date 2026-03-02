@@ -1,16 +1,12 @@
 import java.util.Scanner;
-
-
-public class revision {
+public class revision 
+{
 
     // Primitive = simple value stored directly in memory (stack)
     // Reference = memory address (stack) that points to the (heap)
 
-    public static void main(String[] args) {
-
-
-
-
+    public static void main(String[] args) 
+    {
         // JAVA START
         // int age = 50;
 
@@ -28,16 +24,14 @@ public class revision {
         // boolean isStudent = false;
         // boolean forSale = false;
         // boolean isOnline = true;
-        /////////////////////////////
-        
-        //User input in Java 
+        ////////////////////////////
+
+        // User input in Java
         Scanner scanner = new Scanner(System.in);
         // scanner.close();
         System.out.println("Enter a number");
-        
+
         scanner.close();
-
-         
-
+        // }
     }
 }

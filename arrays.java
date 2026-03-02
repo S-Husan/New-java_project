@@ -1,4 +1,18 @@
 // import java.util.Scanner;
+class ArrayPass {
+    int getMin (int[] a){
+        int l = a[0];
+        for(int i = 0; i < a.length; i++){
+            if (a[i] < l)
+                l = a[i];
+        }
+        a[0] = 100;
+        return l ;
+    }
+
+    // arrays
+}
+
 
 public class arrays {
     public static void main(String[] args) {
@@ -39,7 +53,13 @@ public class arrays {
         //     highest =arr[0];
         //     total = total + arr[i];
         //     lowest =arr[i];
-        
+    
+        ArrayPass a = new ArrayPass();
+        System.out.println("a = "+ a);
 
+        int[] arr = {8,13,4,2,0,34,6,7};
+        
+        System.out.println("Minimum number = " + a.getMin(arr));
+        System.out.println(arr[0]);
     }
 }
