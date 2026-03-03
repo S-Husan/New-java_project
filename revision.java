@@ -1,6 +1,6 @@
-import java.util.Scanner;
-public class revision 
-{
+// import java.util.Scanner;
+// public class revision 
+// {
 
     // Primitive = simple value stored directly in memory (stack)
     // Reference = memory address (stack) that points to the (heap)
@@ -27,11 +27,25 @@ public class revision
         ////////////////////////////
 
         // User input in Java
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
         // scanner.close();
-        System.out.println("Enter a number");
+        // System.out.println("Enter a number");
 
-        scanner.close();
+        // scanner.close();
         // }
+
+        ///////////////////////////
+        //Arethmatic operators
+        int x =10 ;
+        int y =2 ;
+        // int z = x + y ;
+        // int z = x - y ;
+        // int z = x * y ;
+        // int z = x / y ;
+        int z = x % 20 ;
+        System.out.println(z);
+
+
+
     }
-}
+
