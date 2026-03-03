@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 // public class revision 
 // {
 
@@ -7,6 +7,8 @@
 
     public static void main(String[] args) 
     {
+
+        // System.out.println("x");
         // JAVA START
         // int age = 50;
 
@@ -24,6 +26,8 @@
         // boolean isStudent = false;
         // boolean forSale = false;
         // boolean isOnline = true;
+
+
         ////////////////////////////
 
         // User input in Java
@@ -34,16 +38,99 @@
         // scanner.close();
         // }
 
-        ///////////////////////////
+        // Scanner => Name of utility (class name at the top that we imported)
+        // a = name of an object we will be working with
+        // "new"does two things:====> 1) Allocates memory for the object.
+        //                     \\==> 2) Calls the constructor of the class
+        //                                  This creates a real object in memory
+
+        // Meaning in words:Create a new Scanner object that
+        //  reads data from standard input (keyboard) and store its reference in variable a.
+        // 
+
+
+        Scanner a = new Scanner(System.in);
+    
+
+
+
+
+
+
+        ////////////////////////////////
         //Arethmatic operators
-        int x =10 ;
-        int y =2 ;
-        // int z = x + y ;
-        // int z = x - y ;
-        // int z = x * y ;
-        // int z = x / y ;
-        int z = x % 20 ;
-        System.out.println(z);
+        // int x =10 ;
+        // int y =2 ;
+        // // int z = x + y ;
+        // // int z = x - y ;
+        // // int z = x * y ;
+        // // int z = x / y ;
+        // // int z = x % 20 ;
+        // System.out.println(z);
+
+        /////////////////////////////////
+        // Augmented Assignment Operators
+        // int x =10 ;
+        // int y =2 ;
+
+        // x += y; //  <==> x + x =y
+        // x -= y; //  <==> x - x =y
+        // x *= y; //  <==> x * x =y
+
+
+        // double  a = 10;
+        // double b = 2;
+        // a /= b ;// <==> a = a / b;
+        // a %= b;
+        // System.out.println(a);
+
+
+        ////////////////////////////////////
+        // Increment and Decrement Operators
+        // int x = 1;
+        // x += 1; // we can Increment that x by one by doing ++ for example x++;
+        // x = x -1 ;// we can decrement that x by -1 by doung -- for example x--;
+
+
+
+        ////////////////////////////////////
+        // ORDER OF OPERATIONS [P-E-M-D-A-S] ===> Parentheses, 
+        // \Exponents, Multiplication/Division, Addition/Subtraction)
+
+        // double result = 3 + 4 * (7-5 ) / 2.0;
+        // System.out.println(result);
+    
+        // System.out.println();
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// We need to import scanner bro taking an input 
+
+        // SHOPING CARD PROGRAM
+
+        Scanner scanner = new Scanner(System.in);
+
+        scanner.close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
