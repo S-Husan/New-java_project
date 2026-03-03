@@ -49,7 +49,9 @@ import java.util.Scanner;
         // 
 
 
-        Scanner a = new Scanner(System.in);
+        // Scanner a = new Scanner(System.in);
+
+        // a.close();
     
 
 
@@ -114,9 +116,35 @@ import java.util.Scanner;
 
         // SHOPING CARD PROGRAM
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner first_input = new Scanner(System.in);
 
-        scanner.close();
+        System.out.println("Enter you name:");
+        String name = first_input.next();
+        // here "name" decloration and  "first_input.nextLine();" is assigniment  
+        // nextLine(); methof of our fisrt_input object reads characters with spaces   
+        // String name = first_input.nextLine();
+        // next(); WE USE I WE NEED TO GET INPUT WITHOUT SPACES 
+        // To take integer input we use next ==>
+            System.out.println("Enter your age:");
+        int age = first_input.nextInt();
+        
+        // To take an double type input use next ==>
+            
+            System.out.print("What is your gpa: ");
+            double gpa = first_input.nextDouble();
+
+        // To take a boolean type input use net ==>
+            System.out.println("Are u a student ? ");
+            boolean isStudent  = first_input.nextBoolean();
+
+        // Answers
+        System.out.println("Hello " + name );
+        System.out.println("You are " + age + " years old");
+        System.out.println("You Gpa is:" + gpa );
+        System.out.println("Student " + isStudent);
+
+
+        first_input.close();
 
 
 
