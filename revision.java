@@ -28,7 +28,7 @@ import java.util.Scanner;
         // boolean isOnline = true;
 
 
-        ////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////
 
         // User input in Java
         // Scanner scanner = new Scanner(System.in);
@@ -59,7 +59,7 @@ import java.util.Scanner;
 
 
 
-        ////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////
         //Arethmatic operators
         // int x =10 ;
         // int y =2 ;
@@ -70,7 +70,7 @@ import java.util.Scanner;
         // // int z = x % 20 ;
         // System.out.println(z);
 
-        /////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////
         // Augmented Assignment Operators
         // int x =10 ;
         // int y =2 ;
@@ -87,7 +87,7 @@ import java.util.Scanner;
         // System.out.println(a);
 
 
-        ////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
         // Increment and Decrement Operators
         // int x = 1;
         // x += 1; // we can Increment that x by one by doing ++ for example x++;
@@ -95,7 +95,7 @@ import java.util.Scanner;
 
 
 
-        ////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
         // ORDER OF OPERATIONS [P-E-M-D-A-S] ===> Parentheses, 
         // \Exponents, Multiplication/Division, Addition/Subtraction)
 
@@ -106,7 +106,7 @@ import java.util.Scanner;
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -151,31 +151,49 @@ import java.util.Scanner;
 
 
 
-
+        ////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////
 
         ////Common issues
         /// if we accept first int or double then String u will get error
     
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
     
         
-        System.out.print("Age?");
-        int age = scanner.nextInt();
-        // to avoid an error commented above u need to use next ==> scanner.nextLine(); idk why
-        scanner.nextLine();
+        // System.out.print("Age?");
+        // int age = scanner.nextInt();
+        // // to avoid an error commented above u need to use next ==> scanner.nextLine(); idk why
+        // scanner.nextLine();
 
-        System.out.println("Enter ur favorite colour");
-        String color = scanner.nextLine();
+        // System.out.println("Enter ur favorite colour");
+        // String color = scanner.nextLine();
     
 
-        System.out.println("Yu are " + age + " years old");
-        System.out.println("You like the color " + color);
+        // System.out.println("Yu are " + age + " years old");
+        // System.out.println("You like the color " + color);
 
 
+        ///////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////
+        
+        // Calculate area of a rectangle
+        
+        double width = 0;
+        double height = 0;
+        double area = 0;
 
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter the width: ");
+        width = scanner.nextDouble();
 
+        System.out.print("Enter the height: ");
+        height = scanner.nextDouble();
+        
+        area = width * height;
 
+        System.out.println("The area is " + area +" cm²");
 
+        scanner.close();
     }
 
