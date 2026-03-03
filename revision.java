@@ -116,45 +116,60 @@ import java.util.Scanner;
 
         // SHOPING CARD PROGRAM
 
-        Scanner first_input = new Scanner(System.in);
+        // Scanner first_input = new Scanner(System.in);
 
-        System.out.println("Enter you name:");
-        String name = first_input.next();
+        // System.out.print("Enter you name:");
+        // String name = first_input.next();
         // here "name" decloration and  "first_input.nextLine();" is assigniment  
         // nextLine(); methof of our fisrt_input object reads characters with spaces   
         // String name = first_input.nextLine();
         // next(); WE USE I WE NEED TO GET INPUT WITHOUT SPACES 
         // To take integer input we use next ==>
-            System.out.println("Enter your age:");
-        int age = first_input.nextInt();
+        //     System.out.print("Enter your age:");
+        // int age = first_input.nextInt();
         
         // To take an double type input use next ==>
             
-            System.out.print("What is your gpa: ");
-            double gpa = first_input.nextDouble();
+            // System.out.print("What is your gpa: ");
+            // double gpa = first_input.nextDouble();
 
         // To take a boolean type input use net ==>
-            System.out.println("Are u a student ? ");
-            boolean isStudent  = first_input.nextBoolean();
+        //     System.out.print("Are u a student ? ");
+        //     boolean isStudent  = first_input.nextBoolean();
 
-        // Answers
-        System.out.println("Hello " + name );
-        System.out.println("You are " + age + " years old");
-        System.out.println("You Gpa is:" + gpa );
-        System.out.println("Student " + isStudent);
-
-
-        first_input.close();
-
-
-
-
-
+        // // Answers
+        // System.out.println("Hello " + name );
+        // System.out.println("You are " + age + " years old");
+        // System.out.println("You Gpa is:" + gpa );
+        // if (isStudent){
+        //     System.out.println("You are enrolled as a Student");
+        // }
+        // else{
+        //     System.out.println("You are not enrolled as a student");
+        // }
+        // first_input.close();
 
 
 
 
 
+        ////Common issues
+        /// if we accept first int or double then String u will get error
+    
+        Scanner scanner = new Scanner(System.in);
+    
+        
+        System.out.print("Age?");
+        int age = scanner.nextInt();
+        // to avoid an error commented above u need to use next ==> scanner.nextLine(); idk why
+        scanner.nextLine();
+
+        System.out.println("Enter ur favorite colour");
+        String color = scanner.nextLine();
+    
+
+        System.out.println("Yu are " + age + " years old");
+        System.out.println("You like the color " + color);
 
 
 
