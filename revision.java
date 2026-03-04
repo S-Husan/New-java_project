@@ -39,17 +39,17 @@ import java.util.Scanner;
         // }
 
         // Scanner => Name of utility (class name at the top that we imported)
-        // a = name of an object we will be working with
+        // scanner = name of an object we will be working with
         // "new"does two things:====> 1) Allocates memory for the object.
         //                     \\==> 2) Calls the constructor of the class
         //                                  This creates a real object in memory
 
         // Meaning in words:Create a new Scanner object that
-        //  reads data from standard input (keyboard) and store its reference in variable a.
+        //  reads data from standard input (keyboard) and store its reference in variable scanner.
         // 
 
 
-        // Scanner a = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
         // a.close();
     
@@ -112,7 +112,7 @@ import java.util.Scanner;
 
 
 
-// We need to import scanner bro taking an input 
+// We need to import scanner to take an input 
 
         // SHOPING CARD PROGRAM
 
@@ -123,7 +123,7 @@ import java.util.Scanner;
         // here "name" decloration and  "first_input.nextLine();" is assigniment  
         // nextLine(); methof of our fisrt_input object reads characters with spaces   
         // String name = first_input.nextLine();
-        // next(); WE USE I WE NEED TO GET INPUT WITHOUT SPACES 
+        // next(); WE USE when WE NEED TO GET INPUT WITHOUT SPACES 
         // To take integer input we use next ==>
         //     System.out.print("Enter your age:");
         // int age = first_input.nextInt();
@@ -133,7 +133,7 @@ import java.util.Scanner;
             // System.out.print("What is your gpa: ");
             // double gpa = first_input.nextDouble();
 
-        // To take a boolean type input use net ==>
+        // To take a boolean type input use next ==>
         //     System.out.print("Are u a student ? ");
         //     boolean isStudent  = first_input.nextBoolean();
 
@@ -155,7 +155,7 @@ import java.util.Scanner;
         ////////////////////////////////////////////////////////////////////////////////////
 
         ////Common issues
-        /// if we accept first int or double then String u will get error
+        /// if we accept first int or double then String u will get an error
     
         // Scanner scanner = new Scanner(System.in);
     
@@ -178,22 +178,82 @@ import java.util.Scanner;
         
         // Calculate area of a rectangle
         
-        double width = 0;
-        double height = 0;
-        double area = 0;
+        // double width = 0;
+        // double height = 0;
+        // double area = 0;
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the width: ");
-        width = scanner.nextDouble();
+        // System.out.print("Enter the width: ");
+        // width = scanner.nextDouble();
 
-        System.out.print("Enter the height: ");
-        height = scanner.nextDouble();
+        // System.out.print("Enter the height: ");
+        // height = scanner.nextDouble();
         
-        area = width * height;
+        // area = width * height;
 
-        System.out.println("The area is " + area +" cm²");
+        // System.out.println("The area is " + area +" cm²");
 
-        scanner.close();
+        // scanner.close();
+
+
+
+
+
+        
+        ////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////
+        //Shopping card programm
+             
+
+        // Scanner scanner = new Scanner(System.in);
+
+        // String item;
+        // double price;
+        // int quantity;
+        // char currency = '$';
+        // double total;
+
+        // System.out.print("What item whould u like to buy?: ");
+        // item = scanner.nextLine();
+        
+        // System.out.print("What is price for each? :");
+        // price = scanner.nextDouble();
+
+
+        // System.out.println("How many whould u like? :");
+        // quantity = scanner.nextInt();
+
+        // // System.out.print(quantity);
+
+        // total = price * quantity;
+        // System.out.println("\nYou have bought "+ quantity +" "+ item+"/s" );
+        // System.out.println("Your total is "+ currency+total);
+
+
+
+
+
+        // scanner.close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
