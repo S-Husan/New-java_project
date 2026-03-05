@@ -26,7 +26,7 @@ public static void main(String[] args) {
     // boolean forSale = false;
     // boolean isOnline = true;
 
-    /////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
 
     // User input in Java
     // Scanner scanner = new Scanner(System.in);
@@ -51,7 +51,7 @@ public static void main(String[] args) {
 
     // a.close();
 
-    /////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
     // Arethmatic operators
     // int x =10 ;
     // int y =2 ;
@@ -62,7 +62,7 @@ public static void main(String[] args) {
     // // int z = x % 20 ;
     // System.out.println(z);
 
-    ///////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////
     // Augmented Assignment Operators
     // int x =10 ;
     // int y =2 ;
@@ -77,13 +77,13 @@ public static void main(String[] args) {
     // a %= b;
     // System.out.println(a);
 
-    ////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
     // Increment and Decrement Operators
     // int x = 1;
     // x += 1; // we can Increment that x by one by doing ++ for example x++;
     // x = x -1 ;// we can decrement that x by -1 by doung -- for example x--;
 
-    ////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
     // ORDER OF OPERATIONS [P-E-M-D-A-S] ===> Parentheses,
     // \Exponents, Multiplication/Division, Addition/Subtraction)
 
@@ -205,32 +205,57 @@ public static void main(String[] args) {
     // scanner.close();
 
     // Prictise
-    Scanner scanner = new Scanner(System.in);
-    String Laptop_model;
-    double price;
-    int quantity;
-    char currency = '$';
-    double total;
-    String color;
+    // Scanner scanner = new Scanner(System.in);
+    // String Laptop_model;
+    // double price;
+    // int quantity;
+    // char currency = '$';
+    // double total;
+    // String color;
+    // // double discount = 0.1;
 
-    System.out.print("What machine whould u like to buy? :");
-    Laptop_model = scanner.nextLine();
-    
-    System.out.print("What colour u want? :");
-    color = scanner.nextLine();
+    // System.out.print("What machine whould u like to buy? :");
+    // Laptop_model = scanner.nextLine();
 
-    System.out.print("What is price for this? :");
-    price = scanner.nextDouble();
-    
-    System.out.print("How many of them u need to buy? :");
-    quantity = scanner.nextInt();
+    // System.out.print("What colour u want? :");
+    // color = scanner.nextLine();
+
+    // System.out.print("What is price for this? :");
+    // price = scanner.nextDouble();
+
+    // System.out.print("How many of them u need to buy? :");
+    // quantity = scanner.nextInt();
+
+    // total = price * quantity;
 
 
-    total = price* quantity;
+    // System.out.println("Total price is " + currency + total);
+    // System.out.println("You bought " + color + " " + Laptop_model + ",and the quantity of laptop/s is " + quantity
+    //         + " Congarts!!!");
+
+    //         // System.out.println("The discount is" +" "+ discount +" "+ "that is why the total now is :" + discountAmount);
+    // 
+        // scanner.close();
 
 
-    System.out.println("Total price is " + currency +total);
-    System.out.println("You bought "+ color +" "+ Laptop_model + ",and the quantity of laptop/s is " + quantity + " Congarts!!!" );
-    scanner.close();
+
+        ////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////
+        // if statement 
+
+        int i = 23 ;
+        if (i <= 18){
+            System.out.println("You are a kid");
+        }
+        else{
+            System.out.println("You are an adult");
+        }
+
+        
+
+
+
 
 }
+
