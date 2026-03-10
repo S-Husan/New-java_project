@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 // public class revision 
 // {
 
@@ -227,14 +228,14 @@ public static void main(String[] args) {
     // quantity = scanner.nextInt();
 
     // total = price * quantity;
-
+    
 
     // System.out.println("Total price is " + currency + total);
     // System.out.println("You bought " + color + " " + Laptop_model + ",and the quantity of laptop/s is " + quantity
     //         + " Congarts!!!");
 
-    //         // System.out.println("The discount is" +" "+ discount +" "+ "that is why the total now is :" + discountAmount);
-    // 
+    // System.out.println("The discount is" +" "+ discount +" "+ "that is why the total now is :" + discountAmount);
+    
         // scanner.close();
 
 
@@ -244,15 +245,33 @@ public static void main(String[] args) {
         ////////////////////////////////////////////////////////////////////////////////////
         // if statement 
 
-        int i = 23 ;
-        if (i <= 18){
-            System.out.println("You are a kid");
-        }
-        else{
-            System.out.println("You are an adult");
-        }
+        // int i = 23 ;
+        // if (i <= 18){
+        //     System.out.println("You are a kid");
+        // }
+        // else{
+        //     System.out.println("You are an adult");
+        // }
 
         
+// 
+// /////////////////////////////////////////////////////////////////////////////////////
+
+    Random random = new Random();
+    int number;
+    number = random.nextInt(1,19);
+    System.out.println(number);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
