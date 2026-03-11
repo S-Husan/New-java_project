@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Random;
+// import java.util.Random;
 // public class revision 
 // {
 
@@ -257,34 +257,40 @@ public static void main(String[] args) {
 // 
 // /////////////////////////////////////////////////////////////////////////////////////
 
-    Random random = new Random();
-    int number1;
-    int number2;
-    int number3;
+    // Random random = new Random();
+    // int number1;
+    // int number2;
+    // int number3;
 
 
-    number1 = random.nextInt(1,100);
-    number2 = random.nextInt(1,100);
-    number3 = random.nextInt(1,100);
-    System.out.println(number1);
-    System.out.println(number2);
-    System.out.println(number3);
+    // number1 = random.nextInt(1,100);
+    // number2 = random.nextInt(1,100);
+    // number3 = random.nextInt(1,100);
+    // System.out.println(number1);
+    // System.out.println(number2);
+    // System.out.println(number3);
 
-    double n; 
-    n = random.nextDouble();
-    System.out.println(n);
+    // double n; 
+    // n = random.nextDouble();
+    // System.out.println(n);
 
-    boolean name;
-    name = random.nextBoolean();
-    System.out.println(name);
-
-
+    // boolean name;
+    // name = random.nextBoolean();
+    // System.out.println(name);
 
 
+    // User input revision 
+    Scanner a = new Scanner(System.in);
 
+    System.out.print("Enter your name:");
+    String name = a.nextLine();
+    System.out.print("Enter your age:");
+    int age = a.nextInt();
+    // Declorations AND assisnment
+    System.out.println("His name is "+ name);
+    System.out.println("Your age is " + age);
 
-
-
+    a.close();
 
 
 
