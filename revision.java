@@ -1,5 +1,9 @@
 import java.util.Scanner;
-// import java.util.Random;
+
+import javax.net.ssl.SNIHostName;
+// /////////////////////////
+// 
+
 // public class revision 
 // {
 
@@ -27,7 +31,7 @@ public static void main(String[] args) {
     // boolean forSale = false;
     // boolean isOnline = true;
 
-    ////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////
 
     // User input in Java
     // Scanner scanner = new Scanner(System.in);
@@ -52,7 +56,7 @@ public static void main(String[] args) {
 
     // a.close();
 
-    ////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////
     // Arethmatic operators
     // int x =10 ;
     // int y =2 ;
@@ -63,7 +67,7 @@ public static void main(String[] args) {
     // // int z = x % 20 ;
     // System.out.println(z);
 
-    //////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
     // Augmented Assignment Operators
     // int x =10 ;
     // int y =2 ;
@@ -78,13 +82,13 @@ public static void main(String[] args) {
     // a %= b;
     // System.out.println(a);
 
-    ///////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////
     // Increment and Decrement Operators
     // int x = 1;
     // x += 1; // we can Increment that x by one by doing ++ for example x++;
     // x = x -1 ;// we can decrement that x by -1 by doung -- for example x--;
 
-    ///////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////
     // ORDER OF OPERATIONS [P-E-M-D-A-S] ===> Parentheses,
     // \Exponents, Multiplication/Division, Addition/Subtraction)
 
@@ -228,41 +232,38 @@ public static void main(String[] args) {
     // quantity = scanner.nextInt();
 
     // total = price * quantity;
-    
-
-    // System.out.println("Total price is " + currency + total);
-    // System.out.println("You bought " + color + " " + Laptop_model + ",and the quantity of laptop/s is " + quantity
-    //         + " Congarts!!!");
-
-    // System.out.println("The discount is" +" "+ discount +" "+ "that is why the total now is :" + discountAmount);
-    
-        // scanner.close();
-
-
-
-        ////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////
-        // if statement 
-
-        // int i = 23 ;
-        // if (i <= 18){
-        //     System.out.println("You are a kid");
-        // }
-        // else{
-        //     System.out.println("You are an adult");
-        // }
-
-        
 // 
-// /////////////////////////////////////////////////////////////////////////////////////
+    // System.out.println("Total price is " + currency + total);
+    // System.out.println("You bought " + color + " " + Laptop_model + ",and the
+    // quantity of laptop/s is " + quantity
+    // + " Congarts!!!");
+
+    // System.out.println("The discount is" +" "+ discount +" "+ "that is why the
+    // total now is :" + discountAmount);
+
+    // scanner.close();
+
+    ////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////
+    // if statement
+
+    // int i = 23 ;
+    // if (i <= 18){
+    // System.out.println("You are a kid");
+    // }
+    // else{
+    // System.out.println("You are an adult");
+    // }
+
+    //
+    // /////////////////////////////////////////////////////////////////////////////////////
 
     // Random random = new Random();
     // int number1;
     // int number2;
     // int number3;
-
-
+// 
     // number1 = random.nextInt(1,100);
     // number2 = random.nextInt(1,100);
     // number3 = random.nextInt(1,100);
@@ -270,7 +271,7 @@ public static void main(String[] args) {
     // System.out.println(number2);
     // System.out.println(number3);
 
-    // double n; 
+    // double n;
     // n = random.nextDouble();
     // System.out.println(n);
 
@@ -278,20 +279,56 @@ public static void main(String[] args) {
     // name = random.nextBoolean();
     // System.out.println(name);
 
+    /////////////////////////////////////////////////
+    // User input revision
+    // Scanner a = new Scanner(System.in);
 
-    // User input revision 
-    Scanner a = new Scanner(System.in);
+    // System.out.print("Enter your name:");
+    // String name = a.nextLine();
+    // System.out.print("Enter your age:");
+    // int age = a.nextInt();
+    // // Declorations AND assisnment
+    // System.out.println("His name is "+ name);
+    // System.out.println("Your age is " + age);
 
-    System.out.print("Enter your name:");
-    String name = a.nextLine();
-    System.out.print("Enter your age:");
-    int age = a.nextInt();
-    // Declorations AND assisnment
-    System.out.println("His name is "+ name);
-    System.out.println("Your age is " + age);
+    // a.close();
 
-    a.close();
+    // //////////////////////////////////////////////
 
+    // Constructors revision
+
+    // constructor = A special method to initialize objects
+    // You can pass arguments to a constructor
+    // and set up initial values
+
+    Student S1 = new Student("Spanjbob",30,3.3);
+    Student S2 = new Student("Patric",23,3.4);
+    Student S3 = new Student("Alish",2,2.2);
+    System.out.println("Name:" + S1.name);
+    System.out.println("Age:"+S1.age);
+    System.out.println("Gpa:"+S1.Gpa);
+    System.out.println(S1.isEnrolled);
+    
+    
+    System.out.println("Name:" + S2.name);
+    System.out.println("Age:"+S2.age);
+    System.out.println("Gpa:"+ S2.Gpa);
+    System.out.println(S2.isEnrolled);
+
+
+    System.out.println("Name:" + S3.name);
+    System.out.println("Age:"+S3.age);
+    System.out.println("Gpa:"+ S3.Gpa);
+    System.out.println(S2.isEnrolled);
+
+
+    
+    
+    S1.study();
+    S2.study();
+    S3.study();
+
+    
 
 
 
