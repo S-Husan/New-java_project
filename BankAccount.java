@@ -10,9 +10,6 @@ public BankAccount(String name, int number, double Balance){
  this.AccountNumber =number ;
  this.balance= Balance;
 }
-
-public void 
-
-
+ 
 
 }

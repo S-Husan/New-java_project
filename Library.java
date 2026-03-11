@@ -18,7 +18,7 @@ class Book {
 }
 
 // Library class that contains methods to work with books
-class Library {
+public class Library {
 
     // Method to display all books in the array
     public static void displayBooks(Book[] books) {
