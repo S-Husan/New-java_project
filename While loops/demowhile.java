@@ -27,28 +27,43 @@ public class demowhile {
         // System.out.println("You have quit the game");
         ////////////////////////////////////////////////////////////
 
-        int age = 0;
+        // int age = 0;
 
-        System.out.print("Enter your age: ");
-        age = scanner.nextInt();
+        // System.out.print("Enter your age: ");
+        // age = scanner.nextInt();
 
-        while (age < 0) {
-            System.out.println("Your age can't be nagative");
-            System.out.print("Enter your age: ");
-            age = scanner.nextInt();
-        }
+        // while (age < 0) {
+        //     System.out.println("Your age can't be nagative");
+        //     System.out.print("Enter your age: ");
+        //     age = scanner.nextInt();
+        // }
 
-        System.out.println("your age is " + age);
+        // System.out.println("your age is " + age);
 
         ////////////////////////////////////////////////////////////
-        do  {
-            System.out.println("Your age can't be nagative");
-            System.out.print("Enter your age: ");
-            age = scanner.nextInt();
-        }while (age < 0);
+        // do  {
+        //     System.out.println("Your age can't be nagative");
+        //     System.out.print("Enter your age: ");
+        //     age = scanner.nextInt();
+        // }while (age < 0);
 
-        System.out.println("your age is " + age);
+        // System.out.println("your age is " + age);
 /////////////////////////////////////////////// 
-        scanner.close();
+
+    //     int numebr = 0;
+
+    // do{         
+    // System.out.println("Enter a number between 1 - 10: ");
+    //     numebr = scanner.nextInt();
+   
+    // }while (numebr < 1 || numebr > 10 );
+
+
+    //     System.out.println("You picked " + numebr);
+
+
+
+
+    //     scanner.close();
     }
 }
