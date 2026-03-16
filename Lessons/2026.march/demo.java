@@ -38,7 +38,7 @@ public class demo {
                 { 67, 72, 80, 75 }, // Student 2
                 { 92, 88, 84, 91 } // Student 3
         };
-        // allMarks("marks");
+        // marks =allMarks ("marks");
 
     }
 
