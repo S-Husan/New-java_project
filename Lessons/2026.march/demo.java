@@ -54,4 +54,4 @@ public class demo {
         // // Complete the code to display marks of all students
         }
 
-}
+}                                                                                                                                                                                                                                                                                                                                                                                              
