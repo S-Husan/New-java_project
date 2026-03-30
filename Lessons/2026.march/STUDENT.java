@@ -6,12 +6,11 @@ class InnerSTUDENT {
     // =======================
     // These variables store the state (data) of each student object
 
-    String name;   // student's name
-    int id;        // student's ID
-    double mark;   // mark for subject 1
-    double mark2;  // mark for subject 2
-    double mark3;  // mark for subject 3
-
+    String name; // student's name
+    int id; // student's ID
+    double mark; // mark for subject 1
+    double mark2; // mark for subject 2
+    double mark3; // mark for subject 3
 
     // =======================
     // CONSTRUCTOR
@@ -49,7 +48,6 @@ class InnerSTUDENT {
         this.mark3 = mark3;
     }
 
-
     // =======================
     // METHODS (BEHAVIOR)
     // =======================
@@ -74,7 +72,6 @@ class InnerSTUDENT {
         return ((mark + mark2 + mark3) / 3);
     }
 
-
     /*
      * METHOD: getTotal
      *
@@ -88,7 +85,6 @@ class InnerSTUDENT {
     double getTotal() {
         return (mark + mark2 + mark3);
     }
-
 
     /*
      * METHOD: details
@@ -115,7 +111,6 @@ class InnerSTUDENT {
     }
 }
 
-
 // =======================
 // MAIN CLASS (ENTRY POINT)
 // =======================
@@ -134,7 +129,7 @@ public class STUDENT {
          * 2. Constructor is called
          * 3. Values are assigned
          */
-
+        
         InnerSTUDENT S1 = new InnerSTUDENT("Husan", 17, 2, 3, 4);
         InnerSTUDENT S2 = new InnerSTUDENT("Ali", 13, 3, 4, 6);
         InnerSTUDENT S3 = new InnerSTUDENT("Kamron", 17, 2, 4, 3);
@@ -185,4 +180,8 @@ public class STUDENT {
         System.out.println("=======");
 
         S3.details();
-   }}
+    }
+}
+
+
+
