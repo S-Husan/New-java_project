@@ -4,6 +4,7 @@ interface Arithmetic{
     int mult(int a, int b);
     float area(float f);
 }
+
 class MyArith implements Arithmetic{
     float radius;
     public int sum(int a, int b){return a+b;}
@@ -18,6 +19,6 @@ class InterfaceDemo {
         System.out.println(m.mult(2, 4));
         System.out.println(m.area(5));
         m.print();
-        System.out.println(m instanceof Arithmetic);
+        System.out.println(m instanceof Arithmetic);                                                                                
     }
 }

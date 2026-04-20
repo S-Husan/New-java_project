@@ -50,23 +50,6 @@ public class inheritence     {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java do not allow multiple class inheritence
 // not allowed: class A extends B, C
 // because of diamond problem

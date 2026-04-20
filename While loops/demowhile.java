@@ -61,9 +61,6 @@ public class demowhile {
 
     //     System.out.println("You picked " + numebr);
 
-
-
-
     //     scanner.close();
     }
 }

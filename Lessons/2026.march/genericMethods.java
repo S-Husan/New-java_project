@@ -3,7 +3,7 @@ class Utility<T> {
 
     // Generic method (this <T> is separate from class <T>)
     // It allows this method to work with ANY type (Integer, String, Double, etc.)
-    static <T> void printArray(T[] arr){
+    static <T extends Number> void printArray(T[] arr){
 
         // Enhanced for-loop (for-each)
         // Iterates through each element of the array
@@ -35,11 +35,15 @@ class genericMethods {
 
         // Here T becomes Integer
         Utility.printArray(intArr);
-
+       
         // Here T becomes String
-        Utility.printArray(strArr);
+        // Utility.printArray(strArr);
 
         // Here T becomes Double
         Utility.printArray(dblArr);
+
+       
     }
 }
+
+

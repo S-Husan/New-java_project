@@ -193,7 +193,7 @@ public class StudentManagementSystem {
             // Print message
         }
 
-        scanner.close();  
+        scanner.close();    
         // Close scanner to free system resources
     }
 }

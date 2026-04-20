@@ -1,15 +1,3 @@
-// import javax.annotation.processing.Generated;
-
-// class GenericDemo<T> {
-//     T obj;
-//     GenericDemo(T o) {
-//         obj = o;
-//     }
-//     public T getObj() {
-//         return obj;
-//     }
-// }
-
 import java.util.Scanner;
 
 class student {
@@ -43,34 +31,29 @@ class student {
         sc.close();
     }
 }
-
+// belove i need to creat setDetails and getDetails but with DataInterface <T>==> T obj;  
 class DataInterface <T>{
-
-    T obj;
     
-    void  getDetails(){
-           Scanner sc = new Scanner(System.in);
-           
-           
-
-
-           sc.close();
+    Scanner sc = new Scanner(System.in);
+    // T obj;   // 
+    
+    // void  getDetails(T){
+        //    Scanner sc = new Scanner(System.in);
+        // this.T = T;
+        
+        sc.close();
+        
     }
-
-}
+    
+    
+// }
 
 public class genericProgramming {
     public static void main(String[] args) {
-        student ns = new student();
-        System.out.println(ns);
+        // student ns = new student();
+        // System.out.println("The name is :" sc.name[]);
+        // szztudent.getDetails();
 
-        // GenericDemo <Integer> iob = new GenericDemo<>(100);
-        // int x = iob.getObj();
-        // System.out.println(x);
-        // GenericDemo <String> sob = new GenericDemo<>("Hello");
-        // String str = sob.getObj();
-        // System.out.println(str);
 
     }
 }
-//
