@@ -1,0 +1,59 @@
+//  Data Types, Variables, Constants & Operators
+// class Prep1 {
+//     public static void main(String[] args) {
+//         // int = whole numbers (no decimals)
+//         int age = 18;
+
+//         // double = numbers with decimals
+//         double price = 9.99;
+
+//         // char = single character (use single quotes)
+//         char grade = 'A';
+
+//         // boolean = true or false only
+//         boolean isStudent = true;
+
+//         // String = words/sentences (use double quotes)
+//         String name = "Alice";
+
+//         System.out.println(name + " is " + age + " years old");
+//         // Output: Alice is 18 years old
+
+//         String n = "Husan";
+//         int a = 18;
+//         boolean Student = true;
+//         System.out.println(
+//                 "The name of the student is: " + n + " and the age is: " + a + " he is a " + Student + " student");
+
+//         final String pa = "Naruto";
+//         System.out.println(pa);
+//         int aa = 10;
+//         int ba = 3;
+// System.out.println( aa +ba);
+//         // Shorthand operators
+//         a++; // a = a + 1 (now a is 11)
+//         a--; // a = a - 1 (back to 10)
+//         a += 5; // a = a + 5 (now a is 15)
+//     }
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//===========================================================================================
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// Input & Output
+// import java.util.Scanner;
+
+// class Prep1 {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter your name:");
+//         String name = scanner.nextLine();
+
+//         System.out.println("So your name is " + name);
+//         String answer = scanner.nextLine();
+//         System.out.println( "if "+ answer+" then good");
+//         scanner.close();
+
+//     }
+// }
