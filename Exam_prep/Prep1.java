@@ -81,17 +81,76 @@ import java.util.Scanner;
 //         }else{
 //             grade = 'F';
 //         }
-        
+
 //         System.out.println("Your grade is " + grade);
 //         sc.close();
 //     }
-    
-    
+
 // }
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 //===========================================================================================
-/////////////////////////////////////////////////////////////////////////////////////////
-
+/////////////////////////////////////////////////////////////////////////////////////
 
 // 🔄 Loops — for, while, do-while
+
+// class Prep1 {
+// public static void main(String[] args) {
+// // Scanner sc = new Scanner(System.in);
+
+// // for(int i = 1; i < 11; i++) {
+// // System.out.println("Count " + i);
+// // }
+
+// // int sum = 0;
+// // // Sum of first 10 numbers
+// // for (int i = 1; i <=10; i++){
+// // sum = sum + i;
+// // }
+// // System.out.println(sum);
+// }
+// }
+
+// while loop
+
+// class Prep1 {
+//     public static void main(String[] args) {
+//         Scanner sc= new Scanner(System.in);
+
+        // int number = 1;
+        // while(number <= 5){
+        //     System.out.println(number);
+        //     number ++;
+        // }
+/////////////////////////////////////////////////////////////
+        // Real use: keep asking until valid input
+        // int guess = 0;
+        // while(guess != 7){
+        //     System.out.println("Guess number 1-10" );
+        //     guess = sc.nextInt();
+            
+        // }
+        // System.out.println("Correct");
+
+
+        // sc.close();
+
+/////////////////////////////////////////////////////////////
+
+        // do-while loop
+        
+        // int count = 1;
+        // do {
+        //     System.out.println("Count" + count);
+        //     count++;
+        // }while(count <= 3);
+        // // int choice;
+
+            
+        
+//     }
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//===========================================================================================
+/////////////////////////////////////////////////////////////////////////////////////
