@@ -31,5 +31,6 @@ public class Demo2 {
         Manager meneger = new Manager("Husan",100,20);
         meneger.displayDitails();
         // System.out.println("The bonus is " + bonus + "and the total salary is " + salary);
+        
     }
 }
