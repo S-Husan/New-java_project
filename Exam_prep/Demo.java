@@ -14,7 +14,7 @@ public class Demo {
             sum =sum + array[i]; 
             i++;
 
-        }
+        }   
 
 
         double average;
