@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 // public class Start_for_Final {
 //     public static void main(String[] args){
 //         Scanner sc = new Scanner(System.in);
@@ -13,295 +12,372 @@ import java.util.Scanner;
 //             System.out.println("Allowed to enter.");
 //         }
 
-
 //     }
 // }
 
+// class Student {
+//     String name;
 
+//     // Constructor
+//     Student(String n) {
+//         name = n;
+//         System.out.println("Constructor is called");
+//     }
+//     // Method
+//         void startEngine() {
+//             System.out.println("Engine started");
+//         }
+// }
+// ////////////////////////////////////////////////////////////////////////////////////////////
+// Arrays
 
+// public class Start_for_Final {
+//     public static void main(String[] args) {
+
+        // int [] numbers = {1,2,3};
+        // // numbers[0] = 0;
+        // // int num = numbers.length;
+        // // System.out.println(num);
+        // for(int i = 0; i< numbers.length ; i++){
+        // System.out.print(i + " ");
+
+        // }
+        // for(int num : numbers){
+        // System.out.println(num);
+
+        // }
+
+        // int[] Array = new int[2];
+
+        // Array[0] = 100;
+        // Array[1] = 200;
+
+        // System.out.println(Array[0]);
+        // System.out.println(Array[1]);
+    //     int[] arr = { 10, 20, 30, 40, 50};
+    //     int sum = 0;
+    //     for(int i =0; i< arr.length; i++){
+    //         sum = sum + arr[i];
+    //     }
+    //     System.out.println(sum);
+    //     ////////////////////////////////
+    //     int avg  = sum / arr.length;
+    //     System.out.println(avg);
+
+    //     int max = arr [0], min = arr[0];
+    //     for(int x : arr){
+    //         if(x > max){
+    //             max =x;}
+            
+    //         if (x < min){
+    //             min =x;}
+            
+
+    //     }
+    //     System.out.println(" Max= " + max + " Min= " + min);
+
+//     Student s1 = new Student("Husan");
+//     s1.startEngine();
+// }}
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
-public class Start_for_Final {
-    public static void main(String[] args){
+// Overwirting
+class Animal {
+    String name;
+    Animal(String name) {
+    this.name = name; }
+    void sound() 
+    { System.out.println("Some sound"); }
+}
+class Dog extends Animal {
+    String breed;
 
+    Dog(String name, String breed) {
+        super(name);        // 1. super() — call parent constructor (MUST be first line)
+        this.breed = breed;
     }
+       @Override
+    void sound() {
+        super.sound();      // 2. super.method() — call parent's version
+        System.out.println("Woof! Breed: " + super.name); // 3. super.field
+    }
+}
+public class Start_for_Final {
+public static void main(String[] args){
+    Animal a = new Animal("Vuffy");
+    a.sound();
+    
+}
 }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
+// }
+// ////////////////////////////////////////////////////////////////////////////////////////////
+// public class Start_for_Final {
+// public static void main(String[] args){
+
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
 // }
-// ////////////////////////////////////////////////////////////////////////////////////////////
-// public class Start_for_Final {
-//     public static void main(String[] args){
-
-//     }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
+// }
 // }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
-//     public static void main(String[] args){
+// public static void main(String[] args){
 
-//     }
 // }
-
-// ////////////////////////////////////////////////////////////////////////////////////////////
-// public class Start_for_Final {
-//     public static void main(String[] args){
-
-//     }
 // }
