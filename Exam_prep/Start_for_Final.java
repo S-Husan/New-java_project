@@ -108,44 +108,80 @@ import java.util.Scanner;
 //     }
 // }
 
-class Animal {
+// class Animal {
+//     String name;
+//     int age;
+
+//     Animal(String name, int age){
+//         this.name= name;
+//         this.age= age;
+//     }
+
+//     void soundOfAnimal() {
+//         System.out.println("Some sound");
+//     }
+// }
+// class Dog extends Animal{
+//     String breed;
+//     Dog(String name,int age, String breed){
+//         super(name,age);
+//         this.breed = breed;
+//     }
+//     @Override
+//         void soundOfAnimal(){
+//             super.soundOfAnimal();
+//             System.out.println("Woof!");
+//         }
+// }
+
+// public class Start_for_Final {
+//     public static void main(String[] args) {
+//         // Dog a = new Dog("Alya","gay");
+//         // a.sound();
+//         Dog D = new Dog("Kom" ,5 , "Buldok");
+//         D.soundOfAnimal();
+
+//     }
+// }
+
+// ////////////////////////////////////////////////////////////////////////////////////////////
+
+class Student{
     String name;
-    int age;
 
-    Animal(String name, int age){
-        this.name= name;
-        this.age= age;
-    }
-
-    void soundOfAnimal() {
-        System.out.println("Some sound");
-    }
-}
-class Dog extends Animal{
-    String breed;
-    Dog(String name,int age, String breed){
-        super(name,age);
-        this.breed = breed;
+    Student(String name){
+        this.name = name;
     }
 }
 
+class Teacher{
+    String subject;
+}
+
+class GenericClass <T>{
+    T obj;
+    GenericClass(T obj ){
+        this.obj = obj;
+    }
+}
 
 public class Start_for_Final {
     public static void main(String[] args) {
-        // Dog a = new Dog("Alya","gay");
-        // a.sound();
+        GenericClass<Integer> obj1 = new GenericClass<>(1);
+        GenericClass<String> obj2 = new GenericClass<>("husniddin");
 
+        name(1);
+        name("someone");
+    }
+
+    static <T> void name(T arg){
+        System.out.println(arg);
+    }
+
+    void name2(int arg){
+        System.out.println(arg);
     }
 }
-
-void
-
-// ////////////////////////////////////////////////////////////////////////////////////////////
-// public class Start_for_Final {
-// public static void main(String[] args){
-
-// }
-// }
 
 // ////////////////////////////////////////////////////////////////////////////////////////////
 // public class Start_for_Final {
